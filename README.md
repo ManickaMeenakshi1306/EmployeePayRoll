@@ -14,19 +14,18 @@ Generate salary slips as text files
 Support basic user roles: HR, Finance, and Employee
 Includes unit tests for core payroll logic
 Project Structure
-EmployeePay/
-│
-├── main.py                  # Command-line interface
-├── db.py                    # In-memory database
-├── model.py                 # Data models
-│
-├── service/
-│   ├── hr_service.py        # HR operations
-│   ├── finance_service.py   # Finance approvals
-│   └── user_service.py      # User management
-│
-├── test_hr_service.py       # Unit tests
-├── slip_*.txt               # Generated salary slips
+
+main.py                  # Command-line interface
+db.py                    # In-memory database
+model.py                 # Data models
+
+ service/
+   ├── hr_service.py        # HR operations
+   ├── finance_service.py   # Finance approvals
+   └── user_service.py      # User management
+
+ test_hr_service.py       # Unit tests
+├ slip_*.txt               # Generated salary slips
 How it Works
 
 The application follows a layered design:
@@ -52,9 +51,12 @@ Running the Project
 Open a terminal in the project folder
 Run the application:
 python main.py
+
 Follow the on-screen options for HR and Finance operations
 Running Tests
 python -m unittest test_hr_service.py
+
+
 Example Workflow
 HR adds employees
 HR creates payroll requests
