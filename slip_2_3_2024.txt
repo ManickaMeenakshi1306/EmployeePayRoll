@@ -1,0 +1,25 @@
+
+Payroll Slip
+----------------------------
+Employee Name: Jane
+Employee ID: 2
+Month: 3
+Year: 2024
+
+Salary Details:
+Basic: 40000.0
+HRA: 16000.0
+Special Allowance: 24000.0
+Gross Salary: 80000
+
+Deductions:
+PF: 4800.0
+ESI: 600.0
+TDS: 8708.333333333334
+Loss of Pay: 0
+
+Bonus: 750.0
+Net Salary: 66641.66666666667
+
+Status: approved
+----------------------------

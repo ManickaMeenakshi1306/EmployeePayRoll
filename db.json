@@ -1,0 +1,115 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "pos": "Developer",
+      "ctc": 60000.0,
+      "dept": "IT",
+      "jdate": "2023-01-01",
+      "ldays": 2,
+      "miss": false
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "pos": "Manager",
+      "ctc": 80000.0,
+      "dept": "HR",
+      "jdate": "2023-04-15",
+      "ldays": 0,
+      "miss": false
+    },
+    {
+      "id": 3,
+      "name": "Lakshaya",
+      "pos": "Manager",
+      "ctc": 30000.0,
+      "dept": "IT",
+      "jdate": null,
+      "ldays": 0,
+      "miss": false
+    },
+    {
+      "id": 4,
+      "name": "meenashi",
+      "pos": "head",
+      "ctc": 400000.0,
+      "dept": "it",
+      "jdate": null,
+      "ldays": 0,
+      "miss": false
+    }
+  ],
+  "payroll_requests": [
+    {
+      "id": 1,
+      "eid": 3,
+      "mon": 9,
+      "yr": 2026,
+      "basic": 15000.0,
+      "hra": 6000.0,
+      "spl": 9000.0,
+      "gross": 30000.0,
+      "pf": 1800.0,
+      "esi": 225.0,
+      "tds": 458.3333333333333,
+      "lop": 0,
+      "bonus": 5250.0,
+      "net": 32766.666666666668,
+      "stat": "pending",
+      "hold": false,
+      "block": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "uname": "hr",
+      "pwd": "hr123",
+      "role": "HR",
+      "eid": null,
+      "type": "HR"
+    },
+    {
+      "id": 2,
+      "uname": "finance",
+      "pwd": "fin123",
+      "role": "Fin",
+      "eid": null,
+      "type": "Fin"
+    },
+    {
+      "id": 3,
+      "uname": "emp1",
+      "pwd": "emp123",
+      "role": "Emp",
+      "eid": 1,
+      "type": "Emp"
+    },
+    {
+      "id": 4,
+      "uname": "emp2",
+      "pwd": "emp123",
+      "role": "Emp",
+      "eid": 2,
+      "type": "Emp"
+    },
+    {
+      "id": 5,
+      "uname": "meena",
+      "pwd": "1234",
+      "role": "HR",
+      "eid": null,
+      "type": "HR"
+    },
+    {
+      "id": 6,
+      "uname": "raina",
+      "pwd": "12345",
+      "role": "Fin",
+      "eid": null,
+      "type": "Fin"
+    }
+  ]
+}

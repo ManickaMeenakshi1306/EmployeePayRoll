@@ -1,0 +1,22 @@
+
+    Payroll Slip
+    -------------
+    Employee ID: 1
+    Name: John Doe
+    Position: Developer
+    Department: IT
+    Month: April 2026
+    Basic: $30000.00
+    HRA: $12000.00
+    Special Allowance: $18000.00
+    Gross: $60000.00
+    PF: $3600.00
+    ESI: $450.00
+    TDS: $4708.33
+    LOP: $2000.00
+    Bonus: $1875.00
+    Net: $51116.67
+    Status: approved
+    Over Deduction Hold: False
+    Duplicate Block: False
+    
