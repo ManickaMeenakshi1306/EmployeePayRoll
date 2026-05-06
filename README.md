@@ -17,7 +17,7 @@ Project Structure
 
 main.py
 
-db.py                    n# In-memory database
+db.py                    # In-memory database
 model.py                 # Data models
 
  service/
