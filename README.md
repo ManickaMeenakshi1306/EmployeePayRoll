@@ -15,14 +15,17 @@ Support basic user roles: HR, Finance, and Employee
 Includes unit tests for core payroll logic
 Project Structure
 
-main.py                  # Command-line interface
-db.py                    # In-memory database
+main.py
+
+db.py                    n# In-memory database
 model.py                 # Data models
 
  service/
-   ├── hr_service.py        # HR operations
-   ├── finance_service.py   # Finance approvals
-   └── user_service.py      # User management
+   hr_service.py        # HR operations
+   finance_service.py   # Finance approvals
+   user_service.py      # User management
+
+
 
  test_hr_service.py       # Unit tests
 ├ slip_*.txt               # Generated salary slips
