@@ -27,8 +27,8 @@ model.py                 # Data models
 
 
 
- test_hr_service.py       # Unit tests
-├ slip_*.txt               # Generated salary slips
+test_hr_service.py        # Unit tests
+slip_*.txt               # Generated salary slips
 How it Works
 
 The application follows a layered design:
